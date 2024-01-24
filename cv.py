@@ -1,11 +1,11 @@
 import streamlit as st
-from streamlit_timeline import st_timeline
+from streamlit_timeline import timeline
 
 CURRENT_THEME = "blue"
 IS_DARK_THEME = True
 
 with st.sidebar:
-    st.image("Images\ThomChhun.jpg")
+    st.image("Images/ThomChhun.jpg")
     st.title("Coordonnées")
     st.write("📞 06 29 56 57 82")
     st.write("✉️ thom.chhun@gmail.com")
@@ -66,8 +66,13 @@ items = [
     {"id": 9, "content": "Migration de données vers ou depuis un environnement NoSQL", "Formation":"BUT Sciences des Données, Statistique et Informatique Décisionnelle", "Etablissement": "IUT de Paris – Rives de Seine", "Lieu": "Paris 16e", "start": "2024-02-01"}
 ]
 
-timeline = st_timeline(items, groups=[], options={}, height="300px")
-st.write(timeline)
+#timeline = st_timeline(items, groups=[], options={}, height="300px")
+#st.write(timeline)
+with open('example.json', "r") as f:
+    data = f.read()
+
+# render timeline
+timeline(data, height=800)
 
 st.subheader("Expérience Professionnel")
 st.write("- Création d'un robot automatisant les tâches récurrentes avec Rstudio")
