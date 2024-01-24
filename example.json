@@ -1,57 +1,69 @@
 {
     "title": {
-        "media": {
-          "url": "",
-          "caption": " <a target=\"_blank\" href=''>credits</a>",
-          "credit": ""
-        },
         "text": {
-          "headline": "Welcome to<br>Streamlit Timeline",
-          "text": "<p>A Streamlit Timeline component by integrating TimelineJS from Knightlab</p>"
+          "headline": "Bienvenue sur<br>ma Timeline",
+          "text": "<p>La frise chronologique retracant mon parcours</p>"
         }
     },
     "events": [
       {
-        "media": {
-          "url": "https://vimeo.com/143407878",
-          "caption": "How to Use TimelineJS (<a target=\"_blank\" href='https://timeline.knightlab.com/'>credits</a>)"
-        },
         "start_date": {
-          "year": "2016",
+          "year": "2021",
+          "month":"7"
+        },
+        "text": {
+          "headline": "Bac General",
+          "text": "<p>Specialites Mathematiques / Sciences Economiques et Sociales<br>Admis Mention Bien<br><a target=\"_blank\" href='https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-polyvalent-prive-montalembert-92.html#:~:text=Le%20Lyc%C3%A9e%20Montalembert%20est%20un,%2C%20chinois%2C%20italien%2C%20persan.'>Lycee prive Montalembert</a>, Courbevoie (92400)</p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "2021",
+          "month":"9"
+        },
+        "text": {
+          "headline": "BUT SD (ex. STID)",
+          "text": "<p><a target=\"_blank\" href='https://www.iut.fr/bachelor-universitaire-de-technologie/science-des-donnees/'>BUT Sciences des Donnees</a>, Statistique et Informatique Decisionnelle<br>Parcours : Visualisation et Conception d'Outils Decisionnel<br>IUT de Paris - Rives de Seine, Paris 16e</p>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "2022",
+          "month":"9"
+        },
+        "text": {
+          "headline": "Alternant Data Analyst",
+          "text": "Gan Assurances, Nanterre (92000)<br>Direction Technique<br>Contrat d'alternance sur une periode de 2 ans"
+        }
+      },
+      {
+        "start_date": {
+          "year": "2023",
+          "month":"11"
+        },
+        "text": {
+          "headline": "Data Mining",
+          "text": "Projet : Mise en oeuvre d'un processus de Datamining"
+        }
+      },
+      {
+        "start_date": {
+          "year": "2024",
           "month":"1"
         },
         "text": {
-          "headline": "TimelineJS<br>Easy-to-make, beautiful timelines.",
-          "text": "<p>TimelineJS is a populair tool from Knightlab. It has been used by more than 250,000 people to tell stories seen hundreds of millions of times, and is available in more than sixty languages. </p>"
+          "headline": "Outil decisionnel",
+          "text": "Projet : Conception d'un outil decisionnel"
         }
       },
       {
-        "media": {
-          "url": "https://www.youtube.com/watch?v=CmSKVW1v0xM",
-          "caption": "Streamlit Components (<a target=\"_blank\" href='https://streamlit.io/'>credits</a>)"
-        },
         "start_date": {
-          "year": "2020",
-          "month":"7",
-          "day":"13"
-        },
-        "text": {
-          "headline": "Streamlit Components<br>version 0.63.0",
-          "text": "Streamlit lets you turn data scripts into sharable web apps in minutes, not weeks. It's all Python, open-source, and free! And once you've created an app you can use our free sharing platform to deploy, manage, and share your app with the world."
-        }
-      },
-      {
-        "media": {
-          "url": "https://github.com/innerdoc/streamlit-timeline/raw/main/component-logo.png",
-          "caption": "github/innerdoc (<a target=\"_blank\" href='https://www.github.com/innerdoc/'>credits</a>)"
-        },
-        "start_date": {
-          "year": "2021",
+          "year": "2024",
           "month":"2"
         },
         "text": {
-          "headline": "Streamlit TimelineJS component",
-          "text": "Started with a demo on https://www.innerdoc.com/nlp-timeline/ . <br>Then made a <a href='https://github.com/innerdoc/streamlit-timeline'>Streamlit component</a> of it. <br>Then made a <a href='https://pypi.org/project/streamlit-timeline/'>PyPi package</a> for it."
+          "headline": "Migration de donnees",
+          "text": "Projet : Migration de donnees vers ou depuis un environnement NoSQL"
         }
       }
     ]
