@@ -14,13 +14,22 @@ with st.sidebar:
     st.link_button("Consulter mon Porfolio", "https://thom-chhun-portfolio.netlify.app")
     st.link_button("Consulter mon Linkedin", "https://www.linkedin.com/in/thom-chhun-b7a587233")
     st.download_button(
-            label="Télécharger mon CV",
-            key="download_button",
-            on_click=None,
-            file_name="CV_Thom_Chhun.pdf",
-            data="Images/CV_Thom_Chhun.pdf",
-            help="Mon CV",
-        )
+        label="Télécharger mon CV",
+        key="download_button",
+        on_click=None,
+        file_name="CV_Thom_Chhun.pdf",
+        data="Images/CV_Thom_Chhun.pdf",
+        help="Mon CV",
+    )
+        
+        
+    with open("CV_Thom_Chhun.pdf", "rb") as file:
+        btn=st.download_button(
+        label="Télécharger mon CV",
+        data=file,
+        file_name="CV_Thom_Chhun.pdf",
+        mime="Images/CV_Thom_Chhun.pdf"
+    )
 
     with st.expander("Outils"):
         st.subheader("Data Mining et Analyse de données :")
