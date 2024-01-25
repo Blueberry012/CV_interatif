@@ -18,7 +18,7 @@ with st.sidebar:
             key="download_button",
             on_click=None,
             file_name="CV_Thom_Chhun.pdf",
-            data="Images\CV_Thom_Chhun.pdf",
+            data="Images/CV_Thom_Chhun.pdf",
             help="Mon CV",
         )
 
@@ -51,7 +51,7 @@ with st.sidebar:
 
 st.title("Thom Chhun")
 st.subheader("Alternant Data Analyst")
-st.write("Après 2 ans en tant qu'alternant Data Analyst chez Gan Assurances, je recherche une nouvelle alternance en tant que Data Scientist à partir de septembre 2024 sur une période de 3 ans.")
+st.write("Après 2 ans en tant qu'alternant Data Analyst, je recherche une nouvelle alternance en tant que Data Scientist à partir de septembre 2024 sur une période de 3 ans.")
 
 st.subheader("Diplômes, Formations et Projets")
 
