@@ -17,8 +17,8 @@ with st.sidebar:
             label="Télécharger mon CV",
             key="download_button",
             on_click=None,
-            file_name="CV_CHHUN_Thom.pdf",
-            data="Images\CV_CHHUN_Thom.pdf",
+            file_name="CV_Thom_Chhun.pdf",
+            data="Images\CV_Thom_Chhun.pdf",
             help="Mon CV",
         )
 
