@@ -11,8 +11,8 @@ with st.sidebar:
     st.write("✉️ thom.chhun@gmail.com")
     st.write("📍 Courbevoie (92400)")
     st.write("📅 20 ans")
-    st.link_button("Accéder à mon Linkedin", "https://www.linkedin.com/in/thom-chhun-b7a587233/")
-    st.link_button("Accéder à mon Porfolio", "https://thom-chhun-portfolio.netlify.app/")
+    st.link_button("Consulter mon Porfolio", "https://thom-chhun-portfolio.netlify.app")
+    st.link_button("Consulter mon Linkedin", "https://www.linkedin.com/in/thom-chhun-b7a587233")
     st.download_button(
             label="Télécharger mon CV",
             key="download_button",
@@ -102,4 +102,4 @@ with st.expander("Migration de données vers ou depuis un environnement NoSQL"):
 
 st.divider()
 st.write("Pour plus d'information concernant mes projets et mon parcours, je vous invite à conculter mon Portfolio")
-st.link_button("Accéder à mon Porfolio", "https://thom-chhun-portfolio.netlify.app/")
+st.link_button("Consulter mon Porfolio", "https://thom-chhun-portfolio.netlify.app")
